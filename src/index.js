@@ -13,6 +13,8 @@ jQuery(document).ready(function ($) {
             center: new google.maps.LatLng(51.5, -0.2), zoom: 10
         };
         var map = new google.maps.Map(mapCanvas, mapOptions);
+
+    };
 //header__slider
         $(".slides").owlCarousel({
             loop: true,
@@ -23,16 +25,33 @@ jQuery(document).ready(function ($) {
                     items: 1,
                     nav: true
                 },
-                // 600: {
-                //     items: 3,
-                //     nav: false
-                },
                 1000: {
                     items: 2,
                     nav: true,
                     loop: false
-                }
-            }
-        });
+                }}
+            });
+        
+//team__slider
+        $(".team__items").owlCarousel({
+            loop: true,
+            margin: 10,
+            responsiveClass: true,
+            responsive: {
+                0: {
+                    items: 1,
+                    nav: true
+                },
+                500: {
+                    items: 2,
+                    nav: true
+                },
+                1000: {
+                    items: 4,
+                    nav: true,
+                    loop: false
+                }}
+            });
 
-    }});
+            
+    });

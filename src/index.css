@@ -332,6 +332,133 @@ section {
   font-weight: 700;
 }
 
+.header .header__content .owl-carousel {
+  padding-left: 310px;
+  position: relative;
+}
+
+.header .header__content .owl-carousel .header__slider__like {
+  margin: 0 !important;
+  max-width: 322px;
+  width: 100%;
+  position: relative;
+}
+
+.header .header__content .owl-carousel .header__slider__like img {
+  max-width: 322px;
+  width: 100%;
+}
+
+.header .header__content .owl-carousel .header__slider__like .green__like__overlay {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 27%;
+  background-color: #89ca51d0;
+}
+
+.header .header__content .owl-carousel .header__slider__like .green__like__overlay i {
+  font-size: 29px;
+}
+
+.header .header__content .owl-carousel .header__slider__like .green__like__overlay p {
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+  margin-left: 12px;
+}
+
+.header .header__content .owl-carousel .header__slider__like .green__like__overlay i {
+  color: #adff63;
+}
+
+.header .header__content .owl-carousel .header__slider__like .green__like__overlay p {
+  color: #ffffff;
+}
+
+.header .header__content .owl-carousel .header__slider__like .yellow__like__overlay {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 27%;
+  background-color: #feec75d5;
+}
+
+.header .header__content .owl-carousel .header__slider__like .yellow__like__overlay i {
+  font-size: 29px;
+}
+
+.header .header__content .owl-carousel .header__slider__like .yellow__like__overlay p {
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+  margin-left: 12px;
+}
+
+.header .header__content .owl-carousel .header__slider__like .yellow__like__overlay i {
+  color: #cc9800;
+}
+
+.header .header__content .owl-carousel .header__slider__like .yellow__like__overlay p {
+  color: #cc9800;
+}
+
+.header .header__content .owl-nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.header .header__content .owl-nav span {
+  font-size: 30px;
+  background: red;
+}
+
+.header .header__content .owl-dots {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.header .header__content .owl-dots .owl-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #a9aaad;
+  margin-right: 20px;
+}
+
+.header .header__content .owl-dots .active {
+  background: #0d77a1;
+}
+
 .about__items {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -880,6 +1007,7 @@ section {
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
+  margin-right: 0 !important;
 }
 
 .team__items .team__item .team__item__pic {
@@ -931,18 +1059,31 @@ section {
   margin-right: 28px;
 }
 
-.map {
-  padding: 50px 0;
+.team__items .owl-dots {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  -ms-flex-line-pack: center;
-  align-content: center;
-  height: 400px;
-  width: 100%;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.team__items .owl-dots .owl-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #6d6e71;
+  margin-right: 20px;
+}
+
+.team__items .owl-dots .active {
+  background: #1faae2;
+}
+
+.map {
   position: relative;
 }
 
@@ -1006,8 +1147,8 @@ section {
   border-radius: 10px;
   border: 1px solid #dbdbdb;
   background-color: #ffffff;
-  -webkit-transition: .5s;
-  transition: .5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .map .map__contacts .map__contact .map__contact__icon:hover {
